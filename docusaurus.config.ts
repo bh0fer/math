@@ -76,6 +76,14 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
   plugins: ['docusaurus-plugin-sass'],
+  scripts: [
+      {
+          src: 'https://umami.gbsl.website/tell-me.js',
+          ['data-website-id']: '82589074-14b8-480d-83c4-c089e4fccfea',
+          async: true,
+          defer: true
+      },
+  ],
 };
 
 export default config;
