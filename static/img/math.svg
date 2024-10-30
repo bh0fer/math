@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1024 768" height="768px" width="1024px" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-c62a9149-6d7e-47c8-b981-23cf4fdbf21c">
+    <stop id="stop767752" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop767754" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-c62a9149-6d7e-47c8-b981-23cf4fdbf21c">
+    <stop id="stop767757" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop767759" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+    <stop id="stop767761" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <g id="logo-group">
+    <g id="logo-center" transform="translate(1.1368683772161603e-13 0)">
+      <g id="title" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)">
+        <path id="path767780" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 462.30088,-31.176 -13.03201,23.328 0.072,7.848 h 13.10401 z M 403.83688,0 h 13.17599 v -6.984 l -13.17599,-23.544 z m 46.728,-50.4 -17.28001,29.088 -17.712,-29.088 h -11.73599 l 13.17599,24.408 12.888,21.024 h 6.336 l 12.96,-21.744 12.744,-23.688 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#5dbbb3" stroke="#5dbbb3" transform="translate(0 346.6) translate(219.14985000000007 -25.6) scale(2.5) translate(-403.83688 50.4)"></path>
+        <path id="path767782" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 502.62987,-50.4 h -14.04 L 466.34188,0 h 14.54399 l 3.96,-9.792 4.17601,-10.512 6.47999,-16.128 6.48,16.128 4.176,10.512 3.96001,9.792 h 14.832 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#3e90a1" stroke="#3e90a1" transform="translate(0 346.6) translate(390.41235000000006 -25.6) scale(2.5) translate(-466.34188 50.4)"></path>
+        <path id="path767784" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="M 537.18988,-39.096 V 0 h 14.25599 v -39.096 h 15.40801 V -50.4 h -45.14401 v 11.304 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#1f6590" stroke="#1f6590" transform="translate(0 346.6) translate(543.8323250000001 -25.6) scale(2.5) translate(-521.70987 50.4)"></path>
+        <path id="path767786" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 620.117,-50.4 h -14.256 v 18.936 h -19.44 V -50.4 H 572.165 V 0 h 14.256 v -19.656 h 19.44 V 0 h 14.256 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#003a7e" stroke="#003a7e" transform="translate(0 346.6) translate(684.9701499999999 -25.6) scale(2.5) translate(-572.165 50.4)"></path>
+      </g>
+    </g>
+  </g>
+</svg>
