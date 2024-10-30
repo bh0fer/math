@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import clsx from 'clsx';
+import { parseNumber } from './helper';
 
 interface Props {
     value: [string, string, string];
@@ -8,10 +9,20 @@ interface Props {
 }
 
 const VectorInput = ({ value, onChange }: Props) => {
+    const [invalidInput, setInvalidInput] = React.useState<Set<number>>(new Set());
     const handleChange = (index: number, newValue: string) => {
         const newVector = [...value] as [string, string, string];
         newVector[index] = newValue;
         onChange(newVector);
+        if (Number.isNaN(parseNumber(newValue))) {
+            setInvalidInput((prev) => new Set(prev.add(index)));
+        } else if (invalidInput.has(index)) {
+            setInvalidInput((prev) => {
+                const newSet = new Set(prev);
+                newSet.delete(index);
+                return newSet;
+            });
+        }
     };
 
     return (
@@ -24,7 +35,7 @@ const VectorInput = ({ value, onChange }: Props) => {
                             type="text"
                             value={component}
                             onChange={(e) => handleChange(index, e.target.value)}
-                            style={{ width: '50px', margin: '0 5px' }}
+                            className={clsx(styles.input, invalidInput.has(index) && styles.invalid)}
                         />
                     ))}
                 </div>

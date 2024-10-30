@@ -30,8 +30,15 @@
     .content {
         display: flex;
         flex-direction: column;
-        input {
+        gap: 1.1px;
+        .input {
             text-align: center;
+            width: 50px;
+            margin: 0 5px;
+            &.invalid {
+                color: var(--ifm-color-danger);
+                outline-color: var(--ifm-color-danger);
+            }
         }
     }
 }
@@ -45,20 +52,20 @@
     position: relative;
     padding-top: 5px; /* Padding to adjust the arrow over the text */
     margin-left: 15px;
+    &::before {
+        content: '→'; /* Unicode for right arrow */
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        font-size: 24px; /* Adjust size as needed */
+        line-height: 0; /* Removes extra space typically added by characters */
+        transform: translateX(-2px) translateY(15px);
+    }
 }
 
-.vectorText::before {
-    content: '→'; /* Unicode for right arrow */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    font-size: 24px; /* Adjust size as needed */
-    line-height: 0; /* Removes extra space typically added by characters */
-    transform: translateX(-2px) translateY(15px);
-}
 .equals {
     margin: 0 10px;
 }
