@@ -24,3 +24,9 @@ yarn run start
 
 ### Logo
 Erstellt mit https://www.canva.com/
+
+### Upgrade Docusaurus
+
+```bash
+yarn upgrade @docusaurus/core@latest @docusaurus/faster@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/tsconfig@latest @docusaurus/types@latest 
+```
